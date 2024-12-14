@@ -1,8 +1,9 @@
 import React from 'react';
+import '../estilos/estudios.css';
 
 function EstudiosRealizados() {
   return (
-    <section>
+    <section className='estudios'>
       <h2>Estudios realizados</h2>
       <ol>
         <li>Primaria en Mayor Galo Molina</li>

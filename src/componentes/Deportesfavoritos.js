@@ -1,9 +1,10 @@
 import React from "react";
+import '../estilos/deporte.css';
 
 
 function Deportesfavoritos(){
     return(
-        <section>
+        <section className="deportes">
         <h2>Deportes Favoritos</h2>
         <div className="galeria">
           <div className="imagenes">

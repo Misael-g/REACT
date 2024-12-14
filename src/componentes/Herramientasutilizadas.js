@@ -1,8 +1,9 @@
 import React from 'react';
+import '../estilos/herramienta.css';
 
 function Herramientasutilizadas() {
   return (
-    <section>
+    <section className='herramientas'>
       <h2>Herramientas utilizadas</h2>
       <ul>
         <li>Node.js</li>

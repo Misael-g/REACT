@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './estilos/App.css';
 
 import Datospersonales from './componentes/Datospersonales.js';
 import EstudiosRealizados from './componentes/EstudiosRealizados.js';
