@@ -1,5 +1,7 @@
 import React from "react";
-import '../estilos/deporte.css';
+import "../estilos/deporte.css";
+import ecuavoley from "../imagen/3.jpg";
+import futbolsala from "../imagen/futbolsala.jpg";
 
 
 function Deportesfavoritos(){
@@ -16,8 +18,12 @@ function Deportesfavoritos(){
             <h3>Baloncesto</h3>
           </div>
           <div className="imagenes">
-            <img src="./imag/3.jpg" alt="ecuavoley" />
+            <img src={ecuavoley} alt="ecuavoley" />
             <h3>Ecuavoley</h3>
+          </div>
+          <div className="imagenes">
+            <img src={futbolsala} alt="futbolsala" />
+            <h3>Futbol Sala</h3>
           </div>
         </div>
       </section>
